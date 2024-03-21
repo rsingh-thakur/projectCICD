@@ -9,6 +9,6 @@ public class HomeController {
 	@GetMapping("/test")
 	public String testMethod() {
 		System.out.println("method called from api");
-		return "Response Message from service (updated)";
+		return "Response Message from service (new updated)";
 	}
 }
